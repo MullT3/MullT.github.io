@@ -1,5 +1,5 @@
 # Site settings
-title: TMull | Tyron Mullins
+title: MullT♾️ | Tyron Mullins
 description: 'General blog of my work and other stuff I get up to. Formaly structural enggineer at Price & Myers'
 url: 'http://MullT.github.io'
 baseurl:
@@ -10,8 +10,8 @@ baseurl:
 author:
   name: 'Tyron Mullins'
   email: tyronmullins@gmail.com
-  twitter_username: none
-  facebook_username: none
+  twitter_username: 
+  facebook_username: 
   github_username:  MullT3
   linkedin_username:  tyron-mullins-9bb084ab
 
