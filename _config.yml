@@ -1,8 +1,8 @@
 # Site settings
 title: TMull | Tyron Mullins
 description: 'General blog of my work and other stuff I get up to. Formaly structural enggineer at Price & Myers'
-url: 'http://tmull.com'
-baseurl: '/'
+url: 'http://MullT.github.io'
+baseurl:
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 # disable_landing_page: true
@@ -10,8 +10,8 @@ baseurl: '/'
 author:
   name: 'Tyron Mullins'
   email: tyronmullins@gmail.com
-  twitter_username: 
-  facebook_username: 
+  twitter_username: none
+  facebook_username: none
   github_username:  MullT3
   linkedin_username:  tyron-mullins-9bb084ab
 
