@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Few bits and bobs I have worked on over the years"
-date:   2016-01-08 12:00:00
+date:   2024-01-01 12:00:00
 categories: []
 tags: [P&M, Civic]
 ---
@@ -9,19 +9,23 @@ A few examples of projects I have workd on over the years mainly at Price & Myer
 
 ### Commercial Way Peckham
 
+<embed src="_assets\24898-Commecial_Way_small.pdf" width="500" height="375" type="application/pdf">
+
 ### Bushey Hill Road Peckham Staircase
 
-### Regents' Canal Footbridge 
+### Regents' Canal Footbridge
 
 ### University College Oxford
 
-### Keats Grove temporary works sequence 
+### Keats Grove temporary works sequence
 
-### Compton Ave. London 
+### Compton Ave. London
 
 ### Vita Cardiff
 
-### Yinka 12m 
+### Park Crescent London
+
+### Yinka 12m
 
 ### Hackney Windrush Statues
 
