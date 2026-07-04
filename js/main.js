@@ -41,16 +41,6 @@ $(document).ready(function () {
     $('.panel-cover').addClass('panel-cover--collapsed');
   }
 
-<<<<<<< HEAD
-    // Projects button animation
-    $('.projects-button').click(function() {
-      if ($('.panel-cover').hasClass('panel-cover--collapsed')) return;
-
-      $('.panel-cover').addClass('panel-cover--collapsed');
-    });
-
-  })
-=======
   {% endif %}
 
   $('.btn-mobile-menu').click(function () {
@@ -68,4 +58,3 @@ $(document).ready(function () {
   });
 
 });
->>>>>>> bdb88da6776b982d869fa2729375241dbed49d38
