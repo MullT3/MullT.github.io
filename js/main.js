@@ -37,4 +37,11 @@ exclude: 'yes'
       $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
     })
 
+    // Projects button animation
+    $('.projects-button').click(function() {
+      if ($('.panel-cover').hasClass('panel-cover--collapsed')) return;
+
+      $('.panel-cover').addClass('panel-cover--collapsed');
+    });
+
   })
