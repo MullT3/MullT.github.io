@@ -1,6 +1,6 @@
 # README
 
-https://tyronmullins.com
+https://www.tyronmullins.com
 
 Build with `bundler exec jekyll serve`.
 
