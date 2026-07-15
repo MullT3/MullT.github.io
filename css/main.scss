@@ -57,3 +57,24 @@ pre.highlight code,
   border: 3px solid #fff;
   border-radius:100%;
 }
+
+/*
+ * Keep the projects gallery's left offset in sync with the sidebar
+ * (.panel-cover). uno.scss already does this for .content-wrapper at
+ * these same breakpoints; .content-wrapper__projects was missing them,
+ * so it drifted out of sync above 1300px and stayed offset on mobile
+ * even after the sidebar moves to the top below 960px.
+ */
+@media all and (min-width: 1300px) {
+  .content-wrapper__projects {
+    margin-left:  650px; /* sidebar caps at max-width: 530px above this width */
+  }
+}
+
+@media all and (max-width: 960px) {
+  .content-wrapper__projects {
+    width: 80%;
+    max-width: none;
+    margin: 0 auto; /* sidebar has moved to the top, so no left offset needed */
+  }
+}

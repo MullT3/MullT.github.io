@@ -173,6 +173,14 @@ permalink: /projects/
   cursor: default;
 }
 
+/* Gives the first/last image room to scroll all the way to center —
+   without this, scrollLeft can't go negative, so it clamps at 0 and
+   the first image can never be pulled past wherever that leaves it. */
+.viewer-spacer {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
 .viewer-scroll img.center-hover {
   cursor: zoom-in;
 }
