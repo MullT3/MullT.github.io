@@ -7,3 +7,5 @@ _site
 .DS_Store
 Gemfile.lock
 vendor/
+js/SS/
+ss/

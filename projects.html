@@ -148,7 +148,7 @@ permalink: /projects/
 /* EXIT ZONE */
 .viewer-exit-zone {
   position: absolute;
-  top: 0;
+  bottom: 0;
   right: 0;
   width: 25%;
   height: 80px;
@@ -232,10 +232,11 @@ permalink: /projects/
 /* CLOSE */
 .close {
   position: absolute;
-  top: 20px;
+  bottom: 30px;   /* was: top: 20px; — change this value to move it up/down */
   right: 30px;
   font-size: 28px;
   cursor: pointer;
+  z-index: 40;    /* sits above the exit zone / nav zones */
 }
 
 </style>

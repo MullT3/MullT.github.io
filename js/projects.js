@@ -93,6 +93,13 @@ function openProject(i) {
   updateCounter();
 
   viewer.classList.add('active');
+
+  // Center the first image once the viewer has laid out and become visible
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      images[viewerIndex].scrollIntoView({ behavior: "auto", inline: "center", block: "nearest" });
+    });
+  });
 }
 
 // ==========================
