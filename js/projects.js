@@ -44,6 +44,7 @@ function initGallery(data) {
       <div class="overlay">
         <div class="title">${p.title}</div>
         <div class="subtitle">${p.desc}</div>
+        <div class="subtitle">${p.date}</div>
       </div>
     `;
 
