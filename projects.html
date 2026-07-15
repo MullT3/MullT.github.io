@@ -250,3 +250,14 @@ permalink: /projects/
 </style>
 
 <script src="/js/projects.js"></script>
+
+<script>
+['gallery', 'project-viewer', 'fullscreen-viewer'].forEach(function(id) {
+  var el = document.getElementById(id);
+  if (el) {
+    el.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+    });
+  }
+});
+</script>
