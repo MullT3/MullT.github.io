@@ -150,5 +150,13 @@
   "folder": "/images/projects/project19/",
   "images": ["1.jpg", "2.jpg", "3.jpg","4.jpg", "5.jpg"],
   "Size":"Wide"
+  },
+  {
+  "title": "DfMA Foundations",
+  "desc": "UK",
+  "date": "2025",
+  "folder": "/images/projects/project20/",
+  "images": ["1.jpg", "2.jpg", "3.jpg","4.jpg"],
+  "Size":"Wide"
   }
 ]
